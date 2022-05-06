@@ -1,6 +1,8 @@
 ## CALCULATOR APP
 Basic calculator app with JQuery, HTML and CSS
+<br>
 ![image](https://user-images.githubusercontent.com/69327534/167218489-0f233299-448f-4d16-8ad9-4fb42c895b07.png)
+<br>
 ![image](https://user-images.githubusercontent.com/69327534/167218611-b7500706-a2ca-47a6-a714-6dc8de6f62c9.png)
 <br>
 #Press equals to sign to see answer
