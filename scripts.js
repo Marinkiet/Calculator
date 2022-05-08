@@ -1,5 +1,5 @@
-$(document).ready(function(){
-    $('#one').click(function(){
+$(document).ready(function(){               //once html dom has loaded
+    $('#one').click(function(){             //on click of each number button display/append value in the input area
         document.forms.display.value +=1;
     });
     $('#two').click(function(){
@@ -44,17 +44,17 @@ $(document).ready(function(){
     $('#divide').click(function(){
         document.forms.display.value +='/';
     });
-    $('#equals').click(function(){
-        if(display.value ==""){
-            document.getElementById('mssg').textContent = 'Enter values to calculate';
+    $('#equals').click(function(){                                                      //on click of equals btn then...
+        if(display.value ==""){                                                         //check if no number was clicked
+            document.getElementById('mssg').textContent = 'Enter values to calculate';  //display <- mssg
         }else{
-            document.getElementById('mssg').textContent = "";
-            document.forms.display.value = 
-            eval(document.forms.display.value);
+            document.getElementById('mssg').textContent = "";     //display no "error" mssg
+            document.forms.display.value =                        //from the values in the input field
+            eval(document.forms.display.value);                   //evaluate/calculate them and display answer in field
         }
     });
-    $('#clear').click(function(){
-        document.forms.display.value ="";
+    $('#clear').click(function(){            //on click 'C' btn then
+        document.forms.display.value ="";    //clear input field
     });
 
 })
